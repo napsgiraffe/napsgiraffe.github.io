@@ -1,0 +1,17 @@
+:root {
+    --color-primary: #8CB8EC;
+    --color-primary-accent-light: #468EE3;
+    --color-primary-accent-dark: #1764BF;
+
+    --color-secondary: #262E6E;
+    --color-secondary-accent-light: #394288;
+    --color-secondary-accent-dark: #182479;
+
+    --color-tertiary: #6647B8;
+    --color-tertiary-accent-dark: #4826A2;
+    --color-tertiary-accent-light: #8264D3;
+
+    --color-text: #000000;
+    --color-border: #222222;
+}
+/* This file lays out the colors for my website. */

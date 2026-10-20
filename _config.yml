@@ -1,2 +1,25 @@
 title: Giraffe Code center
-description: EE + Coding portfolio & passion projects
+description: |
+  Electrical Engineering at Northwestern University.
+  Coding Portfolio, as well as several passion projects + blog.
+url: "https://napsgiraffe.github.io"
+baseurl: ""
+theme: "minima"
+
+header_pages:
+  - projects.md
+  - past_work.md
+  - extracurriculars.md
+  - about.md
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      title_image: /assets/images/title_image.png

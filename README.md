@@ -1,2 +1,2 @@
 # napsgiraffe.github.io
-EE + Coding portfolio &amp; passion projects
+This website serves as a combination of both my personal & professional portfolio.
