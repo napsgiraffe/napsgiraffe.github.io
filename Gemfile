@@ -4,4 +4,5 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "webrick"
 gem "minima"
+gem 'wdm', '>= 0.1.0'
 # gem "rails"
