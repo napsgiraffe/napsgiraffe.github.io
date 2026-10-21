@@ -14,7 +14,7 @@ Please use the above buttons to navigate my website, or check out some quick pag
 
 Quick Links:
 - [Resume](/about/resume.html)
-- [Latest Blogpost](/about/blog/postdate.md)
-- [About me](/about.md)
+- [Latest Blogpost](/about/blog/postdate.html)
+- [About me](/about.html)
 
 For website feedback see [here](/feedback.html)

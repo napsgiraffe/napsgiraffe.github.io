@@ -7,10 +7,11 @@ baseurl: ""
 theme: "minima"
 
 header_pages:
-  - projects.md
-  - past_work.md
-  - extracurriculars.md
-  - about.md
+  - about.html
+  - projects.html
+  - past_work.html
+  - extracurriculars.html
+
 
 collections:
   projects:
