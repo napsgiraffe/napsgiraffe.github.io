@@ -13,6 +13,7 @@ Please use the above buttons to navigate my website, or check out some quick pag
 
 Quick Links:
 - [Resume](/about/resume.html)
+- [JPL Experience](/past_work/jpl_research.html)
 - [Latest Blogpost](/about/blog/postdate.html)
 - [About me](/about/index.html)
 

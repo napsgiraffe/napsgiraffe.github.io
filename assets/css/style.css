@@ -21,11 +21,12 @@ body {
 
 .flex-container {
     display: flex;
-    padding: 20px 20px 60px;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 20px 20px;
     justify-content: center;
     align-items: center;
     max-width: 960px;
-    height: 100vh;
 }
 
 .title-image { display: block; max-width: 100%; margin: 0 auto; }
@@ -53,5 +54,3 @@ nav {
 
 h1 { font-size: 3rem; font-weight: 300; margin: 0 0 1rem; }
 h2 {font-size: 2.2rem; font-weight: 300; }
-
-
