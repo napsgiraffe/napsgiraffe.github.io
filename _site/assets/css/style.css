@@ -40,17 +40,73 @@ nav {
 }
 
 .button {
-    padding: 10px 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 10px 20px;
     background: var(--color-secondary-accent-light, #222222FF);
     border: 1px solid #222222;
     border-radius: 4px;
     color: #fff;
+    font: inherit;
     font-size: 12px;
     font-weight: 700;
     text-transform: none;
     text-decoration: none;
 }
+
+.button__image {
+    width: 1.25em;
+    height: 1.25em;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
 .button:hover { background: var(--color-secondary-accent-dark) }
 
 h1 { font-size: 3rem; font-weight: 300; margin: 0 0 1rem; }
 h2 {font-size: 2.2rem; font-weight: 300; }
+
+.card {
+    position: relative;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    max-width:800px; /* need to check */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.card__image {
+    flex: 0 0 40%;
+    width: 40%;
+    aspect-ratio: 5 / 3; /* Check how to maybe change?*/
+    object-fit: cover;
+    border-radius: 22px;
+}
+
+.card__content { : 1; /* See what this means */}
+
+.card__title { margin: 0 0 0.5rem; font-size: 1.4rem;}
+
+.card__title a { color: inherit; text-decoration: none; font-weight: bold}
+
+.card__title a::after { /* See how I can change it so the link applies to just the image & title*/
+    content: "";
+    position: absolute;
+    inset: 0;
+}
+
+.card__text { margin:0; color: #000}
+
+.card:hover { box-shadow: 0 4px 14px rgba( 0, 0,  0, 0.12);}
+.card:focus-within { outline: 2px solid var(--color-primary); outline-offset: 2px;}
+
+@media (max-width: 600px) {
+    .card { flex-direction: column;}
+    .card__image { flex-basis: auto; width: 100%}
+}
+
+.card-list { display: grid; gap: 1.5rem;}
