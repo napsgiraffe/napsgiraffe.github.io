@@ -23,6 +23,7 @@
                 {% for item in site.data.navigation %}
                     <a class="button" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                 {% endfor %}
+                <a class="button" href="javascript:history.back()"> Go Back </a>
             </nav>
         </header>
 
